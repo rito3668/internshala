@@ -22,7 +22,7 @@ export default function Slider() {
             <MdFullscreen size={30} className='svg'/>
         </div>
         <div className='flex justify-between my-6 items-center'>
-            <img src={Badge} alt="" className='w-[180px] ml-5 cursor-pointer'/>
+            <img src={Badge} alt="" className='w-[180px] ml-5 cursor-pointer' onClick={()=>window.open("https://hyggexworld.com/")}/>
             <h2 className='flex items-center cursor-pointer text-[20px] font-semibold w-[200px] text'>
                 <span className='w-8 h-8 rounded-full bg-gradient-to-t from-blue-600 flex items-center justify-center text-white to-blue-900 mr-2'><FiPlus size={24}/></span>    
             Create Flashcard

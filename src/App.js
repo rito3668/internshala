@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import FAQ from './components/FAQ';
+import Intro from './components/Intro';
+import Menu from './components/Menu';
+import Navbar from './components/Navbar';
+import Slider from './components/Slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Intro/>
+      <h1 className='text-left ml-[180px] mt-11 text-xl font-bold text'>Relations and Functions(Mathematics)</h1>
+      <Menu/>
+      <Slider/>
+      <FAQ/>
     </div>
   );
 }
